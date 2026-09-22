@@ -62,7 +62,7 @@ with right:
         Rv = ((0.00159*rho)/L)*((sp.log((8*L)/d))-1)
         st.latex(r"R_v = " + sp.latex(Rv))
 
-        R = ((0.001591*rhor)/Lr)*((sp.log((8*Lr)/dr))-1)
+        R = ((0.00159*rhor)/Lr)*((sp.log((8*Lr)/dr))-1)
         st.latex(f"R_v = {R:.4f}\\ Ω")
 
 #=====================
