@@ -59,10 +59,10 @@ with right:
         st.latex(f"{L} = \\text{{Anode length (m)}}")
         st.latex(f"{d} = \\text{{Anode diameter (m)}}")
     with st.container(border=True):
-        Rv = ((0.00521*rho)/L)*((sp.log((8*L)/d))-1)
+        Rv = ((0.00159*rho)/L)*((sp.log((8*L)/d))-1)
         st.latex(r"R_v = " + sp.latex(Rv))
 
-        R = ((0.00521*rhor)/Lr)*((sp.log((8*Lr)/dr))-1)
+        R = ((0.001591*rhor)/Lr)*((sp.log((8*Lr)/dr))-1)
         st.latex(f"R_v = {R:.4f}\\ Ω")
 
 #=====================
