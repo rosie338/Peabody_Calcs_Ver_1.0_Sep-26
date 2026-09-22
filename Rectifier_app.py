@@ -49,7 +49,7 @@ with left:
         st.subheader("Input Parameters")
         rhor = st.number_input("Effective Soil Resistivity in Ωcm", value=10000, format="%.3f", key="effectivesoilres")
         Lr = st.number_input("Anode Length in meters", value=12, format="%.3f",key="anodelengthr")
-        dr = st.number_input("Anode Diameter in meters", value=0.203, format="%.3f", key="anodediameterr")
+        dr = st.number_input("Anode Diameter in meters", value=0.203, format="%.4f", key="anodediameterr")
 
 rho, L, d = sp.symbols('rho L d')
 with right:
